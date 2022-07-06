@@ -108,52 +108,71 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DAE1ED;
+}
 /*=================================
   main styling starts here
 =================================*/
 
+h2 {
+  position: absolute;
+  top: 20px;
+  font-size: 30px;
+}
 
+.input-container {
+  width: 300px;
+  position: relative;
+}
 
+.range-slider { width: 100%; } 
 
+.range-slider::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 25px;
+  background: #AC51B5;
+}
 
+.range-slider::-webkit-slider-thumb {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #AC51B5;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
 
+.range-slider::-moz-range-track {
+  height: 10px;
+  border-radius: 25px;
+  background: #AC51B5;
+  appearance: none;
+  -webkit-appearance: none;
+}
 
+.range-slider::-moz-range-thumb {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #AC51B5;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
 
-/*=================================
-  main styling ends here
-=================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
+label {
+  padding: 10px 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 38%;
+  background-color: #FFF;
+  transform: translateX(-50%,-50%);
+}
