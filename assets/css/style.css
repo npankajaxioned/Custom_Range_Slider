@@ -137,13 +137,13 @@ h2 {
   -webkit-appearance: none;
   appearance: none;
   border-radius: 25px;
-  background: #AC51B5;
+  background: purple;
 }
 
 .range-slider::-webkit-slider-thumb {
   height: 25px;
   width: 25px;
-  border: 1px solid #AC51B5;
+  border: 1px solid purple;
   border-radius: 50%;
   cursor: pointer;
   -webkit-appearance: none;
@@ -152,7 +152,7 @@ h2 {
 .range-slider::-moz-range-track {
   height: 10px;
   border-radius: 25px;
-  background: #AC51B5;
+  background: purple;
   appearance: none;
   -webkit-appearance: none;
 }
@@ -160,7 +160,7 @@ h2 {
 .range-slider::-moz-range-thumb {
   height: 25px;
   width: 25px;
-  border: 1px solid #AC51B5;
+  border: 1px solid purple;
   border-radius: 50%;
   cursor: pointer;
   -webkit-appearance: none;
